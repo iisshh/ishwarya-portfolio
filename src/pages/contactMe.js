@@ -27,6 +27,10 @@ const ContactMe=()=>{
         <i class="fa-solid fa-envelope contact-me-icon-style fa-2x"></i>
         </a>
 
+        <a href="https://leetcode.com/u/ImC0dish/" target="_blank" rel="noreferrer">
+        <i class="fa-solid fa-code contact-me-icon-style fa-2x"></i>
+        </a>
+
         <a href="https://www.github.com/iisshh/" target="_blank" rel="noreferrer">
         <i class="fa-brands fa-github contact-me-icon-style fa-2x"></i>
         </a>

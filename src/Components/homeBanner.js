@@ -1,4 +1,6 @@
 import React from "react";
+import '../style.css';
+
 
 const HomeBanner=()=> {
     return(
@@ -9,8 +11,11 @@ const HomeBanner=()=> {
                 {/* <img src="https://as2.ftcdn.net/v2/jpg/03/85/50/01/1000_F_385500115_T8QiYsPeliQ5tE3npwOuJNUfunqFBo1U.jpg" alt="Unable to load the image" height="200px" width="200px"/> */}
             </div>
             <div className="col-md-6">
-                <h1>Ishwarya Hidkimath Basavaraj</h1>
-                <h3>Software Engineer</h3>
+                <div className="intro-text">Hello, I'm </div>
+                <div className="name-text">Ishwarya Hidkimath Basavaraj</div>
+                <div className="description-text">Computer Science Graduate Student</div>
+                {/* <h1>Ishwarya Hidkimath Basavaraj</h1>
+                <h3>Software Engineer</h3> */}
             </div>
         </div>
 

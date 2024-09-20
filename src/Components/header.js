@@ -11,7 +11,7 @@ const Header=()=>{
       <div className="container">
       <Link to="/">
         <a class="navbar-brand" href="#">
-          <img src="ishwarya-font-yellow.png" alt="ISHWARYA" height="60px"/></a>
+          <img src="logo.png" alt="ISHWARYA" height="60px"/></a>
         </Link>
         <button
           class="navbar-toggler border-0"
@@ -22,6 +22,7 @@ const Header=()=>{
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
+          <div style={{fontSize:"50px", color:"white"}}>☰</div>
           <span
             class="iconify bar-icon"
             data-icon="fa-solid:bars"

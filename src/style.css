@@ -1,11 +1,10 @@
 .homebanner{
-    /* background-image: url("https://www.injurylawfirmsocal.com/assets/sub-banner/sub-banner-v2-img.2305222030550.jpg"); */
-    background-image: url("/Users/ishwaryahidkimath/Documents/VisualStudioProjects/Front end dev/Portfolio/ishwarya-portfolio/public/ish_bann.jpg");
+    background-image: url("/Users/ishwaryahidkimath/Documents/VisualStudioProjects/Front end dev/Portfolio/ishwarya-portfolio/public/ishwarya_banner.jpg");
     width: 100%;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    /* background-position: center; */
     height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover; /* Maintains aspect ratio and covers the container */
+    background-position: center; /* Centers the image */
 }
 .center{
     /* margin: auto; */
@@ -13,9 +12,8 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    
-    
-}
+  
+  }
 .row-style{
     width: 100%;
 }
@@ -92,7 +90,7 @@
     transform: translate(40%, -40%);
     width: 150px;
     height: 150px;
-    background-color: #082f4e;
+    background-color: #233142;
     border: 6px solid #504f93;
     border-radius: 50%;
     opacity: 0.5;
@@ -114,7 +112,7 @@
 	margin-bottom: 26px;
     width: 70px;
     height: 70px;
-    background-color: #082f4e;
+    background-color: #233142;
     border-radius: 5px;
     line-height: 70px;
     text-align: center;
@@ -129,14 +127,25 @@
 }
 
 .section-services .single-service .title {
-    margin-bottom: 18px;
+    margin-bottom: 5px;
 	font-weight: 700;
-    font-size: 23px;
+    font-size: 20px;
     transition: color .3s;
 }
 
 .section-services .single-service:hover .title {
 	color: #fff;
+}
+
+.section-services .single-service .subtitle {
+  margin-bottom: 5px;
+font-weight: 700;
+  font-size: 15px;
+  transition: color .3s;
+}
+
+.section-services .single-service:hover .subtitle {
+color: #fff;
 }
 
 .section-services .single-service .description {
@@ -183,7 +192,7 @@
 
 .my-navbar {
     box-shadow: 0px 10px 30px rgba(216, 216, 216, 0.45);
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
   }
   
@@ -211,7 +220,7 @@
   }
 
   .bg-nav{
-    background-color: #082f4e;
+    background-color: #233142;
     z-index: 99999;
   }
 
@@ -258,7 +267,7 @@
   #main #faq .card .card-header .btn-header-link {
     display: block;
     text-align: center;
-    background: #082f4e;
+    background: #233142;
     color: #fff;
     padding: 20px;
   }
@@ -271,7 +280,7 @@
   }
   
   #main #faq .card .card-header .btn-header-link.collapsed {
-    background: #082f4e;
+    background: #233142;
     color: #fff;
   }
   
@@ -295,11 +304,11 @@
   }
 
   .card-body{
-    color: #082f4e;
+    color: #233142;
   }
 
   .leetcode-section{
-    background-color: #082f4e;
+    background-color: #233142;
     height: 350px;
     border-radius: 10px;
   }
@@ -451,11 +460,12 @@
   }
 
   .contact-me-style-1{
-    font-family: "Sofia";
-    font-size: 40px;
     text-shadow: 3px 3px 3px #ababab;
     padding-top: 150px;
-    color: #082f4e;
+    font-family: 'Brush Script MT';
+    color: #233142;
+    font-weight: bold;
+    font-size: 40px;
   }
 
   /* Contact me  */
@@ -483,10 +493,10 @@
 .contact-me-card {
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 18px;
-  box-shadow: 2px 4px 12px #082f4e;
+  box-shadow: 2px 4px 12px #233142;
   padding: 1em;
   position: relative;
-  color: #082f4e;
+  color: #233142;
   width: 40em;
   height: 20em;
   overflow: auto;
@@ -499,9 +509,10 @@
 }
 
 .contact-me-card > .head > .title {
-    font-family: "Trirong Font";
+    /* font-family: "Trirong Font"; */
+    font-family: 'Playfair Display', sans-serif;
     font-size: 30px;
-    color: #082f4e;
+    color: #233142;
   margin: 4%;
 }
 
@@ -512,14 +523,114 @@
 
 .contact-me-icon-style{
     width: 90px;
-    color: #082f4e;
+    color: #233142;
 }
 
-/* .container-nav-bar{
-    display: flex;
+.leetcode-section{
+  padding: 10px;
+  background-color: #082f4e;
+  height: 100%;
+  border-radius: 10px;
+}
+.container {
+  text-align: center;
+  /* background-color: #f0f4f8; */
+}
+.intro-text {
+  font-family: 'Courier New', monospace;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 0;
+  color: #fff;
+  font-style: italic;
+}
+
+.name-text {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
+  margin: 0;
+  color: #233142;
+  text-shadow: 1px 1px 0px #e3e3e3, 
+               -1px -1px 0px #e3e3e3, 
+               -1px 1px 0px #e3e3e3, 
+               1px -1px 0px #e3e3e3;
+
+}
+
+.description-text {
+  font-family: 'Courier New', monospace;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-top: 0.5rem;
+  color: #233142;
+  font-style: italic;
+}
+.about-me {
+  font-family: 'Brush Script MT';
+  color: #233142;
+  font-weight: bold;
+  text-shadow: 3px 3px 3px #ababab;
+  font-size: 40px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .homebanner{
+    background-image: url("/Users/ishwaryahidkimath/Documents/VisualStudioProjects/Front end dev/Portfolio/ishwarya-portfolio/public/ishwarya_banner.jpg");
+    /* width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 30vh; */
+    /* margin-top: 30px; */
     width: 100%;
-} */
+        height: 30vh; /* Adjust height for smaller screens */
+        background-repeat: no-repeat;
+        background-size: cover; /* Maintain aspect ratio */
+        background-position: center; /* Center the image */
+}
 
+.name-text {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin: 0;
+  color: #233142;
+  padding-left: 100px;
+  text-shadow: 0.6px 0.6px 0px #e3e3e3, 
+                 -0.6px -0.6px 0px #e3e3e3, 
+                 -0.6px 0.6px 0px #e3e3e3, 
+                 0.6px -0.6px 0px #e3e3e3;
 
+}
 
+.intro-text {
+  font-family: 'Courier New', monospace;
+  font-size: 1rem;
+  font-weight: 200;
+  margin-bottom: 0;
+  color: #fff;
+  font-style: italic;
+  padding-left: 100px;
+}
+
+.description-text {
+  font-family: 'Courier New', monospace;
+  font-size: 0.5rem;
+  line-height: 0.5;
+  margin-top: 0.5rem;
+  color: #233142;
+  font-style: italic;
+  padding-left: 100px;
+}
+
+.about-me {
+  font-family: 'Brush Script MT';
+  color: #233142;
+  font-weight: bold;
+  text-shadow: 3px 3px 3px #ababab;
+  font-size: 20px;
+}
+
+}
 

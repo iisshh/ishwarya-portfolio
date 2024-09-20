@@ -29,7 +29,7 @@ const Recruiters = () => {
                       aria-expanded="true"
                       aria-controls="faq1"
                     >
-                      Programming Language
+                      Programming Languages
                     </a>
                   </div>
 
@@ -40,8 +40,7 @@ const Recruiters = () => {
                     data-parent="#faq"
                   >
                     <div class="card-body">
-                      Java 8, Python 3, C++, HTML, CSS, Java Script, SQL, Shell
-                      scripting, Groovy
+                    Java 8, Python, Kotlin, C++, Groovy script
                     </div>
                   </div>
                 </div>
@@ -55,7 +54,7 @@ const Recruiters = () => {
                       aria-expanded="true"
                       aria-controls="faq2"
                     >
-                      Libraries and frameworks
+                      Web Technologies and Services
                     </a>
                   </div>
 
@@ -66,8 +65,7 @@ const Recruiters = () => {
                     data-parent="#faq"
                   >
                     <div class="card-body">
-                      Spring boot, MVC architecture, Microservices, Rest API,
-                      React
+                    HTML, CSS, Bootstrap 5, JavaScript, Angular, React, REST APIs, Swagger
                     </div>
                   </div>
                 </div>
@@ -81,7 +79,7 @@ const Recruiters = () => {
                       aria-expanded="true"
                       aria-controls="faq3"
                     >
-                      Databases
+                      Databases and Messaging/Queueing Systems
                     </a>
                   </div>
 
@@ -91,7 +89,7 @@ const Recruiters = () => {
                     aria-labelledby="faqhead3"
                     data-parent="#faq"
                   >
-                    <div class="card-body">PostgreSQL, MongoDB, MySQL</div>
+                    <div class="card-body">Postgres, Oracle, MySQL, MongoDB, Redis, RabbitMQ, Kafka</div>
                   </div>
                 </div>
                 <div class="card">
@@ -104,7 +102,7 @@ const Recruiters = () => {
                       aria-expanded="true"
                       aria-controls="faq4"
                     >
-                      Application, Tools and Operating System
+                      Servers and Tools
                     </a>
                   </div>
 
@@ -115,10 +113,7 @@ const Recruiters = () => {
                     data-parent="#faq"
                   >
                     <div class="card-body">
-                      Jenkins, Maven, Postman, AWS, Open Stack, Kubernetes,
-                      Docker, GIT, kafka, Selenium, Mongo compass, IntelliJ,
-                      Eclipse, Pycharm, Visual studio, Unix, Grafana, Tomcat,
-                      Agile development, Mockito
+                    Tomcat, Grafana, JIRA, Jenkins
                     </div>
                   </div>
                 </div>
@@ -132,7 +127,7 @@ const Recruiters = () => {
                       aria-expanded="true"
                       aria-controls="faq5"
                     >
-                      Other Skills
+                      Software Development Methodologies
                     </a>
                   </div>
 
@@ -143,11 +138,161 @@ const Recruiters = () => {
                     data-parent="#faq"
                   >
                     <div class="card-body">
-                      Data Structures, Algorithms, Security software
-                      development, Distributed and parallel systems
+                    Software Development Life Cycle (SDLC), Agile, Scrum
                     </div>
                   </div>
                 </div>
+                <div class="card">
+                  <div class="card-header" id="faqhead6">
+                    <a
+                      href="#"
+                      class="btn btn-header-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#faq6"
+                      aria-expanded="true"
+                      aria-controls="faq6"
+                    >
+                      Testing Tools
+                    </a>
+                  </div>
+
+                  <div
+                    id="faq6"
+                    class="collapse"
+                    aria-labelledby="faqhead6"
+                    data-parent="#faq"
+                  >
+                    <div class="card-body">
+                    JUnit, Selenium, Postman, Mockito, SonarQube
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="faqhead7">
+                    <a
+                      href="#"
+                      class="btn btn-header-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#faq7"
+                      aria-expanded="true"
+                      aria-controls="faq7"
+                    >
+                      Cloud, Virtualization and Containerization
+                    </a>
+                  </div>
+
+                  <div
+                    id="faq7"
+                    class="collapse"
+                    aria-labelledby="faqhead7"
+                    data-parent="#faq"
+                  >
+                    <div class="card-body">
+                    DynamoDB, SQS, EC2, S3, Cloud watch, Lambda, OpenStack, KVM, VMware, GCP, Kubernetes, Docker
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="faqhead8">
+                    <a
+                      href="#"
+                      class="btn btn-header-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#faq8"
+                      aria-expanded="true"
+                      aria-controls="faq8"
+                    >
+                      Version Control & IDE
+                    </a>
+                  </div>
+
+                  <div
+                    id="faq8"
+                    class="collapse"
+                    aria-labelledby="faqhead8"
+                    data-parent="#faq"
+                  >
+                    <div class="card-body">
+                    SVN, Github, Bitbucket, IntelliJ, Eclipse, Pycharm, Visual studio
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="faqhead9">
+                    <a
+                      href="#"
+                      class="btn btn-header-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#faq9"
+                      aria-expanded="true"
+                      aria-controls="faq9"
+                    >
+                      Architecture and Design
+                    </a>
+                  </div>
+
+                  <div
+                    id="faq9"
+                    class="collapse"
+                    aria-labelledby="faqhead9"
+                    data-parent="#faq"
+                  >
+                    <div class="card-body">
+                    MVC architecture, Object-Oriented Design, TDD
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="faqhead10">
+                    <a
+                      href="#"
+                      class="btn btn-header-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#faq10"
+                      aria-expanded="true"
+                      aria-controls="faq10"
+                    >
+                      Build Tools
+                    </a>
+                  </div>
+
+                  <div
+                    id="faq10"
+                    class="collapse"
+                    aria-labelledby="faqhead10"
+                    data-parent="#faq"
+                  >
+                    <div class="card-body">
+                    Maven, Gradle
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="faqhead11">
+                    <a
+                      href="#"
+                      class="btn btn-header-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#faq11"
+                      aria-expanded="true"
+                      aria-controls="faq11"
+                    >
+                      Gen AI Technologies
+                    </a>
+                  </div>
+
+                  <div
+                    id="faq11"
+                    class="collapse"
+                    aria-labelledby="faqhead11"
+                    data-parent="#faq"
+                  >
+                    <div class="card-body">
+                    LLM (Llama3), Langchain
+                    </div>
+                  </div>
+                </div>
+                
               </div>
             </div>
           </div>
@@ -161,14 +306,14 @@ const Recruiters = () => {
           </div>
           <div id="main"> 
             <object
-              data="/Ishwarya_Hidkimath_Basavaraj_Resume.pdf"
+              data="/Ishwarya Hidkimath Basavaraj Resume.pdf"
               type="application/pdf"
               width="100%"
               height="800px"
             >
               <p>
                 Unable to display PDF file.{" "}
-                <a href="/Ishwarya_Hidkimath_Basavaraj_Resume.pdf">Download</a>{" "}
+                <a href="/Ishwarya Hidkimath Basavaraj Resume.pdf">Download</a>{" "}
                 instead.
               </p>
             </object>

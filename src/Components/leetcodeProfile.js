@@ -6,6 +6,7 @@ import {
 } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import ProgressBar from "@ramonak/react-progress-bar";
+import LoadingSpin from "react-loading-spin";
 
 
 function LeetCodeProfile() {
@@ -33,7 +34,7 @@ function LeetCodeProfile() {
   useEffect(() => {
     (async () => {
       setLoading(true);
-      const username = "IshwaryaHidkimath";
+      const username = "ImC0dish";
 
       const userData = await fetch(
         `https://leetprofile-server.onrender.com/user/${username}/profile`
@@ -118,6 +119,11 @@ function LeetCodeProfile() {
     }
   }, [leetcodeData]);
 
+  if(isLoading){
+    return <div>
+      <LoadingSpin />
+    </div>
+  }
   return (
     <div>
       <div className="leetcode-section">
@@ -187,7 +193,7 @@ function LeetCodeProfile() {
                     <div>{easySubmissions.count}/{easySubmissions.total}</div>
                     <div>Beats&nbsp;{easySubmissions.beats}%</div>
                 </div>
-                <ProgressBar completed={(easySubmissions.count/easySubmissions.total)*100} bgColor="rgb(44,187,93,.9)" width="90%" height="15px"></ProgressBar>
+                <ProgressBar completed={(easySubmissions.count/easySubmissions.total*100).toFixed(2)} bgColor="rgb(44,187,93,.9)" width="90%" height="15px" labelAlignment="left"></ProgressBar>
             </div>
             <div className="leetcode-submissions-style">
                 <div className="leetcode-submissions-progess-style">
@@ -195,7 +201,7 @@ function LeetCodeProfile() {
                     <div>{mediumSubmissions.count}/{mediumSubmissions.total}</div>
                     <div>Beats&nbsp;{mediumSubmissions.beats}%</div>
                 </div>
-                <ProgressBar completed={(mediumSubmissions.count/mediumSubmissions.total)*100} bgColor="rgb(255,192,30,.9)" width="90%" height="15px"></ProgressBar>
+                <ProgressBar completed={(mediumSubmissions.count / mediumSubmissions.total * 100).toFixed(2)} bgColor="rgb(255,192,30,.9)" width="90%" height="15px" labelAlignment="left"></ProgressBar>
             </div>
             <div className="leetcode-submissions-style">
                  <div className="leetcode-submissions-progess-style">
@@ -203,7 +209,7 @@ function LeetCodeProfile() {
                     <div>{hardSubmissions.count}/{hardSubmissions.total}</div>
                     <div>Beats&nbsp;{hardSubmissions.beats}%</div>
                 </div>
-                <ProgressBar completed={(hardSubmissions.count/hardSubmissions.total)*100} bgColor="rgb(239,71,67,.9)" width="90%" height="15px"></ProgressBar>
+                <ProgressBar completed={(hardSubmissions.count/hardSubmissions.total*100).toFixed(2)} bgColor="rgb(239,71,67,.9)" width="90%" height="15px" labelAlignment="left"></ProgressBar>
             </div>
           </div>
         </div>
